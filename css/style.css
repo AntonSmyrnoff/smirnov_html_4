@@ -31,7 +31,7 @@ body {
 
 	/*-------HEADER-------*/
 header {
-	height: 442px;
+	height: 413px;
 }
 
 		.top_part {
@@ -131,7 +131,7 @@ header {
 		}
 
 		/*-------NAVIGATION BAR-------*/	
-		.navbar {
+		nav {
 			height: 28px;
 			background-color: #323232;
 			border-bottom: 1px solid #000000;
