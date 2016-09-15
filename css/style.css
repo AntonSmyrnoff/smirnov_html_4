@@ -175,34 +175,18 @@ ul, li {
 	width: 150px;
 }
 
-.submenu1:after {
-	content: "\25BC"; /*escaped unicode for the down arrow*/
-	font-size: 0.5em;
-	display: block;
-   	position: absolute;
-   	left: 130px;
-   	bottom: 7px;
-  	color: #ffffff;
 
+.submenu div {
+	margin-right: 5px; 
 }
 
-.submenu2:after {
-	content: "\25BC"; /*escaped unicode for the down arrow*/
+.submenu div:after {
+	content: "\25BC"; /* escaped unicode for the down arrow */
 	font-size: 0.5em;
-	display: block;
+	display: inline-block;
    	position: absolute;
-   	left: 85px;
-   	bottom: 7px;
-  	color: #ffffff;
-}
-
-.submenu3:after {
-	content: "\25BC"; /*escaped unicode for the down arrow*/
-	font-size: 0.5em;
-	display: block;
-   	position: absolute;
-   	left: 115px;
-   	bottom: 7px;
+	margin-left: 5px;
+	bottom: 7px;
   	color: #ffffff;
 }
 
