@@ -5,12 +5,13 @@
 }
 
 body {
-	background: url(../img/body_background.jpg);
+	background: url(../img/body_background.jpg) repeat-x;
+	background-color: #0c739f;
 }
 
 .wrapper {
 	width: 1000px;
-	height: 988px;
+	/* height: 988px; */
 	margin: 38px auto;
 	margin-bottom: 0;
 	background-color: #ffffff;
@@ -213,6 +214,16 @@ header {
 			margin-bottom: -20000px;
 		}
 
+
+		.central_part {
+			width: 575px;
+			height: 1px;
+			float: left;
+			padding-bottom: 20000px;
+			margin-bottom: -20000px;
+
+		}
+
 		.right_sidebar {
 			width: 210px;
 			float: left;
@@ -225,13 +236,7 @@ header {
 			margin-bottom: -20000px;
 		}
 
-		.central_part {
-			width: 575px;
-			height: 1px;
-			float: left;
-			padding-bottom: 20000px;
-			margin-bottom: -20000px;
-		}
+
 
 
 
