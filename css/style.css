@@ -183,7 +183,7 @@ header {
 							width: 150px;
 						}
 
-						.submenu a:after {
+						.submenu>a:after {
 							content: "\25BC";
 							font-size: 0.5em;
 						   	position: absolute;
@@ -193,11 +193,14 @@ header {
 						}
 
 /*------MAIN CONTENT-------*/
+.container {
+	font-size: 14px;
+}
+
 .container p {
 	font-size: 14px;
 	padding: 2px 18px;
 }
-
 		.left_sidebar {
 			width: 215px;
 			float: left;
@@ -205,6 +208,7 @@ header {
 			border-left: 1px solid #c7cacf;
 			box-sizing: border-box;
 			background-color: #edeef0;
+			padding: 10px;
 			padding-bottom: 20000px;
 			margin-bottom: -20000px;
 		}
@@ -216,6 +220,7 @@ header {
 			border-left: 1px solid #c7cacf;
 			box-sizing: border-box; 
 			background-color: #edeef0;
+			padding: 10px;
 			padding-bottom: 20000px;
 			margin-bottom: -20000px;
 		}
